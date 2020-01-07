@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+     *{
+        padding:0;
+        margin: 0;
+    }
+    canvas{
+        position: absolute;
+        left: 30px;
+        top: 30px;
+    }
+    .gameContent{
+        position: relative;
+        width: 800px;
+        height: 500px;
+        margin: 30px auto;
+        border: 1px solid #000;
+    }
+    .target_bean{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: yellow;
+    }
+    </style>
+</head>
+<body>
+    <div class="gameContent">
+        <canvas id="bean" width="40px" height="40px"></canvas>
+        <div class="target_bean"></div>
+    </div>
+    <script src="./demo.js"></script>
+</body>
+</html>
